@@ -1,4 +1,6 @@
-# NgxsGettingStarted
+# Getting started with NGXS is easy
+
+Starter files with no NGXS added.
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.3.5.
 
