@@ -1,0 +1,32 @@
+:host {
+  display: flex;
+  flex-direction: column;
+  gap: 100px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+  padding: 20px;
+  text-align: center;
+  color: #4B5EBE;
+  border-bottom: 1px solid #DDE1F3;
+
+  &-logo {
+    height: 30px;
+  }
+
+  &-title {
+    margin: 0;
+    font-weight: 400;
+  }
+}
+
+.content-wrapper {
+  display: flex;
+  justify-content: center;
+  gap: 150px;
+  height: 100vh;
+}

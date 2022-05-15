@@ -1,0 +1,5 @@
+@use 'shared';
+
+:host {
+  @include shared.component-host(#4B5EBE, #333c66, #6576C8);
+}

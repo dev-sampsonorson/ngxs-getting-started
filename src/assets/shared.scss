@@ -1,0 +1,35 @@
+@mixin component-host($bgColor, $shadowColor, $borderColor) {
+  text-align: center;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 0px;
+  width: 400px;
+  height: 400px;
+
+  & .wrapper {
+    padding: 20px;
+    height: 100%;
+    background-color: #{$bgColor};
+    box-shadow: 10px 10px 0px #{$shadowColor};
+  }
+
+  & .heading {
+    font-weight: 500;
+    padding-bottom: 25px;
+    margin-top: 5px;
+    margin-bottom: 25px;
+    border-bottom: 1px dashed #{$borderColor};
+  }
+
+  & .content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 40px;
+    padding: 20px;
+    border-radius: 10px;
+    border: 4px dashed #{$borderColor};
+  }
+}

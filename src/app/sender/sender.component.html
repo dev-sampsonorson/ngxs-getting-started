@@ -1,0 +1,9 @@
+<div class="wrapper">
+  <h3 class="heading">Sender</h3>
+  <div class="content">
+    <form [formGroup]="form" (ngSubmit)="onSendGreeting()">
+      <input formControlName="message" name="message" id="message" />
+      <button type="submit">Send Greeting</button>
+    </form>
+  </div>
+</div>
